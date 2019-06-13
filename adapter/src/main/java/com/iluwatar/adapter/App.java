@@ -54,7 +54,13 @@ public class App {
    */
   public static void main(String[] args) {
     // The captain can only operate rowing boats but with adapter he is able to use fishing boats as well
+    // 船长只能操作划艇，但使用适配器他也可以使用渔船
     Captain captain = new Captain(new FishingBoatAdapter());
     captain.row();
+
+
+//    Captain captain1 = new Captain();
+//
+//    captain1.row();
   }
 }

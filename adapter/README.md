@@ -14,15 +14,21 @@ tags:
 Wrapper
 
 ## Intent
+将类的接口转换为客户端的另一个接口
+期望。适配器允许类一起工作，否则因为
+不兼容的接口。
+
 Convert the interface of a class into another interface the clients
 expect. Adapter lets classes work together that couldn't otherwise because of
 incompatible interfaces.
+
 
 ## Explanation
 
 Real world example
 
-> Consider that you have some pictures in your memory card and you need to transfer them to your computer. In order to transfer them you need some kind of adapter that is compatible with your computer ports so that you can attach memory card to your computer. In this case card reader is an adapter.
+> Consider that you have some pictures in your memory card and you need to transfer them to your computer. In order to transfer them you need some kind of
+  adapter that is compatible with your computer ports so that you can attach memory card to your computer. In this case card reader is an adapter.
 > Another example would be the famous power adapter; a three legged plug can't be connected to a two pronged outlet, it needs to use a power adapter that makes it compatible with the two pronged outlet.
 > Yet another example would be a translator translating words spoken by one person to another
 
